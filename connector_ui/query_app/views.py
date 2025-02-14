@@ -70,7 +70,7 @@ def query_page(request):
                     client.close()
 
                 else:
-                    # ✅ MySQL/PostgreSQL/SQLite Execution
+                    # ✅ MySQL/PostgreSQL/SQLite Execution zdcs
                     if db_type == "mysql":
                         connection = mysql.connector.connect(
                             host=host, user=user, password=password, database=database, port=port)
