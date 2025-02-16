@@ -175,7 +175,9 @@ def test_query_with_post(db_type, host, user, password, database, port, query):
 
 # Example for Testing
 # if __name__ == "__main__":
+
 #     # Example credentials and query for testing MySQL/m/ef/sdc
+
 #     db_details = {
 #         "db_type": "",
 #         "host": "",
